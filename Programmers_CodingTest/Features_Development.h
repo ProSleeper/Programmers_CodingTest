@@ -16,5 +16,4 @@ using namespace std;
 
 vector<int> solution(vector<int> progresses, vector<int> speeds);
 
-
 #endif /* Features_Development_h */

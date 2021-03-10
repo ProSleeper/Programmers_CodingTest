@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		517394D825F8631B005D62CF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394D725F8631B005D62CF /* main.cpp */; };
 		517394DF25F863A0005D62CF /* Features_Development.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394DE25F863A0005D62CF /* Features_Development.cpp */; };
+		517394E325F87E38005D62CF /* H_Index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394E225F87E38005D62CF /* H_Index.cpp */; };
+		517394E625F8B318005D62CF /* BFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394E525F8B318005D62CF /* BFS.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		517394D725F8631B005D62CF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		517394DE25F863A0005D62CF /* Features_Development.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Features_Development.cpp; sourceTree = "<group>"; };
 		517394E025F86991005D62CF /* Features_Development.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Features_Development.h; sourceTree = "<group>"; };
+		517394E125F87E38005D62CF /* H_Index.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H_Index.h; sourceTree = "<group>"; };
+		517394E225F87E38005D62CF /* H_Index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = H_Index.cpp; sourceTree = "<group>"; };
+		517394E425F8B318005D62CF /* BFS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFS.h; sourceTree = "<group>"; };
+		517394E525F8B318005D62CF /* BFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BFS.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				517394D725F8631B005D62CF /* main.cpp */,
+				517394E425F8B318005D62CF /* BFS.h */,
+				517394E525F8B318005D62CF /* BFS.cpp */,
 				517394DE25F863A0005D62CF /* Features_Development.cpp */,
 				517394E025F86991005D62CF /* Features_Development.h */,
+				517394E125F87E38005D62CF /* H_Index.h */,
+				517394E225F87E38005D62CF /* H_Index.cpp */,
 			);
 			path = Programmers_CodingTest;
 			sourceTree = "<group>";
@@ -126,6 +136,8 @@
 			files = (
 				517394DF25F863A0005D62CF /* Features_Development.cpp in Sources */,
 				517394D825F8631B005D62CF /* main.cpp in Sources */,
+				517394E325F87E38005D62CF /* H_Index.cpp in Sources */,
+				517394E625F8B318005D62CF /* BFS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +256,7 @@
 		517394DC25F8631B005D62CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -252,6 +265,7 @@
 		517394DD25F8631B005D62CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

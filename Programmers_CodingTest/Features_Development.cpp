@@ -7,7 +7,7 @@
 //
 
 //프로그래머스 코딩 테스트 연습
-//스택&큐
+//스택&큐->기능개발
 
 #include "Features_Development.h"
 
@@ -46,7 +46,7 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
 }
 
 
-//메인 함수에서 실행 하는 부분
+//메인 함수에서 실행 할 부분
 //for main
 //vector<int> prog({93, 30, 55});
 //vector<int> spd({1, 30, 5});

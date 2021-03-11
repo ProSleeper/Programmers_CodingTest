@@ -11,27 +11,35 @@
 //#include "H_Index.h"
 //#include "BFS.h"
 //#include "SpeedTrap.h"
-#include "Integer_Triangle.h"
+//#include "Integer_Triangle.h"
+#include "More_Spicy.h"
 
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char * arg[]) {
 
     
-    vector<vector<int>> triangle({{7}, {3, 8}, {8, 1, 0}, {2, 7, 4, 4}, {4, 5, 2, 6, 5}});
+    vector<int> scoville({1, 0});
+
+    //vector<int> scoville({1, 2});
+    //vector<int> scoville({1, 1, 1});
+
+    //int k = 7;
     
-    cout << solution(triangle);
+    cout << solution(scoville, 1);
     
     
     return 0;
 }
 
-//{{-2,-1}, {1,2},{-3,0}}
-//{{0,0},}
-//{{0,1}, {0,1}, {1,2}}
-//{{0,1}, {2,3}, {4,5}, {6,7}}
-//{{-20,-15}, {-14,-5}, {-18,-13}, {-5,-3}}
-//{{-20,15}, {-14,-5}, {-18,-13}, {-5,-3}}
-//{{-20,15}, {-20,-15}, {-14,-5}, {-18,-13}, {-5,-3}}
-//{{-7,0}, {-6,-4}, {-5,-3}, {-3,-1}, {-1,4}, {1,2}, {3,4}}
-//{{-5,-3}, {-4,0}, {-4,-2}, {-1, 2}, {0,3}, {1,5}, {2,4} }
-//{{0,1}, {1,2}, {2,3} ,{3,4}, {5,4}, {5,6}, {6,7} , {8,7}, {8,9} ,{9,10}, {10,11}, {11,12}, {12,13}, {13,14} , {14,15} }
+//vector<int> scoville({1, 1, 1}, 4), 2)
+//vector<int> scoville({10, 10, 10, 10, 10}, 100), 4)
+//vector<int> scoville({1, 2, 3, 9, 10, 12}, 7), 2)
+//vector<int> scoville({0, 2, 3, 9, 10, 12}, 7), 2)
+//vector<int> scoville({0, 0, 3, 9, 10, 12}, 7), 3)
+//vector<int> scoville({0, 0, 0, 0}, 7), -1)
+//vector<int> scoville({0, 0, 3, 9, 10, 12}, 7000), -1)
+//vector<int> scoville({0, 0, 3, 9, 10, 12}, 0), 0)
+//vector<int> scoville({0, 0, 3, 9, 10, 12}, 1), 2)
+//vector<int> scoville({0, 0}, 0), 0)
+//vector<int> scoville({0, 0}, 1), -1)
+//vector<int> scoville({1, 0}, 1), 1)

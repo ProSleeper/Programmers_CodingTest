@@ -13,6 +13,7 @@
 		517394E325F87E38005D62CF /* H_Index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394E225F87E38005D62CF /* H_Index.cpp */; };
 		517394E625F8B318005D62CF /* BFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394E525F8B318005D62CF /* BFS.cpp */; };
 		5193A30325FA08BE001F5355 /* Integer_Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5193A30225FA08BE001F5355 /* Integer_Triangle.cpp */; };
+		5193A30625FA3CB5001F5355 /* More_Spicy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5193A30525FA3CB5001F5355 /* More_Spicy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		517394E525F8B318005D62CF /* BFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BFS.cpp; sourceTree = "<group>"; };
 		5193A30125FA08BE001F5355 /* Integer_Triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Integer_Triangle.h; sourceTree = "<group>"; };
 		5193A30225FA08BE001F5355 /* Integer_Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Integer_Triangle.cpp; sourceTree = "<group>"; };
+		5193A30425FA3CB5001F5355 /* More_Spicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = More_Spicy.h; sourceTree = "<group>"; };
+		5193A30525FA3CB5001F5355 /* More_Spicy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = More_Spicy.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				516A6BB525F8D28E00625640 /* SpeedTrap.cpp */,
 				5193A30125FA08BE001F5355 /* Integer_Triangle.h */,
 				5193A30225FA08BE001F5355 /* Integer_Triangle.cpp */,
+				5193A30425FA3CB5001F5355 /* More_Spicy.h */,
+				5193A30525FA3CB5001F5355 /* More_Spicy.cpp */,
 				517394E425F8B318005D62CF /* BFS.h */,
 				517394E525F8B318005D62CF /* BFS.cpp */,
 				517394DE25F863A0005D62CF /* Features_Development.cpp */,
@@ -148,6 +153,7 @@
 				517394DF25F863A0005D62CF /* Features_Development.cpp in Sources */,
 				516A6BB625F8D28E00625640 /* SpeedTrap.cpp in Sources */,
 				517394D825F8631B005D62CF /* main.cpp in Sources */,
+				5193A30625FA3CB5001F5355 /* More_Spicy.cpp in Sources */,
 				517394E325F87E38005D62CF /* H_Index.cpp in Sources */,
 				517394E625F8B318005D62CF /* BFS.cpp in Sources */,
 			);

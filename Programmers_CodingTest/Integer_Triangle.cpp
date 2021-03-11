@@ -18,23 +18,26 @@
 //개인적으로 이해 했을때는 위의 정의보다는 무식하게 계산했을 때는 반복적으로 계산되는 부분을 딱 한번씩만 계산하도록 해서 큰 문제를 최대한 빠르게 푸는 문제라고 생각됨.
 //이것만 제대로 알고 있어도 웬만한 것들은 처리 가능할듯!
 
-int solution(vector<vector<int>> triangle) {
-    int answer = 0;
-    
-    int largeNumber = 0;
-    
-    //vector로 표현된 삼각형(트리구조)에서 최대값을 구하는 방식
-    //제일 하단에서부터 상향식(bottom-up)으로 구해서 모든 노드를 거치면서 계산을 하지만 딱 한번만 계산을 하도록 반복문 구성
-    for (int i = int(triangle.size() - 1); i >= 0; i--) {
-        for (int j = 0; j < triangle[i].size() - 1; j++) {
-            largeNumber = triangle[i][j] > triangle[i][j + 1] ? triangle[i][j] : triangle[i][j + 1];
-            triangle[i - 1][j] += largeNumber;
-        }
-    }
-    
-    answer = triangle[0][0];
-    
-    return answer;
-}
+//int solution(vector<vector<int>> triangle) {
+//    int answer = 0;
+//    
+//    int largeNumber = 0;
+//    
+//    //vector로 표현된 삼각형(트리구조)에서 최대값을 구하는 방식
+//    //제일 하단에서부터 상향식(bottom-up)으로 구해서 모든 노드를 거치면서 계산을 하지만 딱 한번만 계산을 하도록 반복문 구성
+//    for (int i = int(triangle.size() - 1); i >= 0; i--) {
+//        for (int j = 0; j < triangle[i].size() - 1; j++) {
+//            largeNumber = triangle[i][j] > triangle[i][j + 1] ? triangle[i][j] : triangle[i][j + 1];
+//            triangle[i - 1][j] += largeNumber;
+//        }
+//    }
+//    
+//    answer = triangle[0][0];
+//    
+//    return answer;
+//}
 
 
+//메인함수 부분
+//vector<vector<int>> triangle({{7}, {3, 8}, {8, 1, 0}, {2, 7, 4, 4}, {4, 5, 2, 6, 5}});
+//cout << solution(triangle);

@@ -14,7 +14,7 @@
 
 using namespace std;
 
-int solution(vector<vector<int>> triangle);
+//int solution(vector<vector<int>> triangle);
 
 
 #endif /* Integer_Triangle_h */

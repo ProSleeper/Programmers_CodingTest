@@ -10,49 +10,16 @@
 //#include "Features_Development.h"
 //#include "H_Index.h"
 //#include "BFS.h"
-#include "SpeedTrap.h"
+//#include "SpeedTrap.h"
+#include "Integer_Triangle.h"
 
 
-int main(int argc, const char * arg[]) {
+int main(int argc, const char * argv[]) {
 
-    //vector<vector<int>> NumberOfVehicles({{-20,15}, {-14,-5}, {-18,-13}, {-5,-3}});
-    vector<vector<int>> NumberOfVehicles({{-20,15}, {-14,-5}, {-18,-13}, {-5,-3}});
-    //{{0,2},{2,3},{3,4},{4,6}} 답은 2
-
-    //추가로 아래 부분들은 질문게시판 내용들 모았습니다.
-
-    cout << solution({ {-20, 15}, {-14, -5}, {-18, -13}, {-5, -3} }); //2
-    cout << endl;
-    cout << solution({ {-2, -1}, {1, 2}, {-3, 0} });//2
-    cout << endl;
-    cout << solution({ {0, 0}, });//1
-    cout << endl;
-    cout << solution({ {0, 1}, {0, 1}, {1, 2} });//1
-    cout << endl;
-    cout << solution({ {0, 1}, {2, 3}, {4, 5}, {6, 7} });//4
-    cout << endl;
-    cout << solution({ {-20, -15}, {-14, -5}, {-18, -13}, {-5, -3} });//2
-    cout << endl;
-    cout << solution({ {-20, 15}, {-20, -15}, {-14, -5}, {-18, -13}, {-5, -3} });//2
-    cout << endl;
-    cout << solution({ {2,2},{0,1},{-10,9} });//2
-    cout << endl;
-    cout << solution({ {-7, 0}, {-6, -4}, {-5, -3}, {-3, -1}, {-1, 4}, {1, 2}, {3, 4} });//4
-    cout << endl;
-    cout << solution({ {-5, -3}, {-4, 0}, {-4, -2}, {-1, 2}, {0, 3}, {1, 5}, {2, 4} });//2
-    cout << endl;
-    cout << solution({ {0, 1}, {1, 2}, {2, 3}, {3, 4}, {4, 5}, {5, 6}, {6, 7}, {7, 8}, {8, 9}, {9, 10}, {10, 11}, {11, 12}, {12, 13}, {13, 14}, {14, 15} });//8
-    cout << endl;
-    cout << solution({ {0, 12}, {1, 12}, {2, 12}, {3, 12}, {5, 6}, {6, 12}, {10, 12} });//2
-    cout << endl;
-    cout << solution({ {-191, -107}, { -184,-151 }, { -150,-102 }, { -171,-124 }, { -120,-114 } }); // 2
-    cout << endl;
-    cout << solution({{0,1}, {1,2}, {2,3} ,{3,4}, {5,4}, {5,6}, {6,7} , {8,7}, {8,9} ,{9,10}, {10,11}, {11,12}, {12,13}, {13,14} , {14,15} }); // 8
-    cout << endl;
     
+    vector<vector<int>> triangle({{7}, {3, 8}, {8, 1, 0}, {2, 7, 4, 4}, {4, 5, 2, 6, 5}});
     
-    cout << solution(NumberOfVehicles);
-    
+    cout << solution(triangle);
     
     
     return 0;

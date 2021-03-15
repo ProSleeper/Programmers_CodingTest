@@ -12,34 +12,31 @@
 //#include "BFS.h"
 //#include "SpeedTrap.h"
 //#include "Integer_Triangle.h"
-#include "More_Spicy.h"
+//#include "More_Spicy.h"
+#include "String_Handling.h"
 
+void PrintBool(bool peko)
+{
+    if (peko) {
+        cout << "true";
+        return;
+    }
+    cout << "false";
+}
 
 int main(int argc, const char * arg[]) {
 
-    
-    vector<int> scoville({1, 0});
+    //string str  = "a234";
+    //string str2 = "1234";
+    string str3 = "0A12";
 
-    //vector<int> scoville({1, 2});
-    //vector<int> scoville({1, 1, 1});
+    
+    
+    
+    //PrintBool(solution(str));
+    //PrintBool(solution(str2));
+    PrintBool(solution(str3));
 
-    //int k = 7;
-    
-    cout << solution(scoville, 1);
-    
     
     return 0;
 }
-
-//vector<int> scoville({1, 1, 1}, 4), 2)
-//vector<int> scoville({10, 10, 10, 10, 10}, 100), 4)
-//vector<int> scoville({1, 2, 3, 9, 10, 12}, 7), 2)
-//vector<int> scoville({0, 2, 3, 9, 10, 12}, 7), 2)
-//vector<int> scoville({0, 0, 3, 9, 10, 12}, 7), 3)
-//vector<int> scoville({0, 0, 0, 0}, 7), -1)
-//vector<int> scoville({0, 0, 3, 9, 10, 12}, 7000), -1)
-//vector<int> scoville({0, 0, 3, 9, 10, 12}, 0), 0)
-//vector<int> scoville({0, 0, 3, 9, 10, 12}, 1), 2)
-//vector<int> scoville({0, 0}, 0), 0)
-//vector<int> scoville({0, 0}, 1), -1)
-//vector<int> scoville({1, 0}, 1), 1)

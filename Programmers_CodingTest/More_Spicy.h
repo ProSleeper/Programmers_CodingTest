@@ -9,10 +9,12 @@
 #ifndef More_Spicy_h
 #define More_Spicy_h
 
+
+
 #include <vector>
 
 using namespace std;
 
-int solution(vector<int> scoville, int K);
+//int solution(vector<int> scoville, int K);
 
 #endif /* More_Spicy_h */

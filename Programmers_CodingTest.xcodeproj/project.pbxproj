@@ -14,6 +14,7 @@
 		517394E625F8B318005D62CF /* BFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394E525F8B318005D62CF /* BFS.cpp */; };
 		5193A30325FA08BE001F5355 /* Integer_Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5193A30225FA08BE001F5355 /* Integer_Triangle.cpp */; };
 		5193A30625FA3CB5001F5355 /* More_Spicy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5193A30525FA3CB5001F5355 /* More_Spicy.cpp */; };
+		51B21AB326008C15003E71F3 /* ChooseTwoNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51B21AB226008C15003E71F3 /* ChooseTwoNumber.cpp */; };
 		51ED760E25FF592100BD4E66 /* String_Handling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51ED760D25FF592100BD4E66 /* String_Handling.cpp */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,8 @@
 		5193A30225FA08BE001F5355 /* Integer_Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Integer_Triangle.cpp; sourceTree = "<group>"; };
 		5193A30425FA3CB5001F5355 /* More_Spicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = More_Spicy.h; sourceTree = "<group>"; };
 		5193A30525FA3CB5001F5355 /* More_Spicy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = More_Spicy.cpp; sourceTree = "<group>"; };
+		51B21AB126008C15003E71F3 /* ChooseTwoNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseTwoNumber.h; sourceTree = "<group>"; };
+		51B21AB226008C15003E71F3 /* ChooseTwoNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChooseTwoNumber.cpp; sourceTree = "<group>"; };
 		51ED760C25FF592100BD4E66 /* String_Handling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = String_Handling.h; sourceTree = "<group>"; };
 		51ED760D25FF592100BD4E66 /* String_Handling.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = String_Handling.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +88,8 @@
 				5193A30225FA08BE001F5355 /* Integer_Triangle.cpp */,
 				51ED760C25FF592100BD4E66 /* String_Handling.h */,
 				51ED760D25FF592100BD4E66 /* String_Handling.cpp */,
+				51B21AB126008C15003E71F3 /* ChooseTwoNumber.h */,
+				51B21AB226008C15003E71F3 /* ChooseTwoNumber.cpp */,
 				5193A30425FA3CB5001F5355 /* More_Spicy.h */,
 				5193A30525FA3CB5001F5355 /* More_Spicy.cpp */,
 				517394E425F8B318005D62CF /* BFS.h */,
@@ -155,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5193A30325FA08BE001F5355 /* Integer_Triangle.cpp in Sources */,
+				51B21AB326008C15003E71F3 /* ChooseTwoNumber.cpp in Sources */,
 				517394DF25F863A0005D62CF /* Features_Development.cpp in Sources */,
 				516A6BB625F8D28E00625640 /* SpeedTrap.cpp in Sources */,
 				517394D825F8631B005D62CF /* main.cpp in Sources */,

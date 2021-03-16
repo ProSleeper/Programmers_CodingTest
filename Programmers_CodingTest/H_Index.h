@@ -15,6 +15,6 @@
 
 using namespace std;
 
-int solution(vector<int> citations);
+//int solution(vector<int> citations);
 
 #endif /* H_Index_h */

@@ -6,37 +6,26 @@
 //  Copyright © 2021 kyw. All rights reserved.
 //
 
-#include <iostream>
+//#include <iostream>
 //#include "Features_Development.h"
 //#include "H_Index.h"
 //#include "BFS.h"
 //#include "SpeedTrap.h"
 //#include "Integer_Triangle.h"
 //#include "More_Spicy.h"
-#include "String_Handling.h"
+//#include "String_Handling.h"
+#include "ChooseTwoNumber.h"
 
-void PrintBool(bool peko)
-{
-    if (peko) {
-        cout << "true";
-        return;
-    }
-    cout << "false";
-}
 
 int main(int argc, const char * arg[]) {
 
-    //string str  = "a234";
-    //string str2 = "1234";
-    string str3 = "0A12";
+    vector<int> numbers({2, 1, 3, 4, 1});
+    vector<int> numbers2({5, 0, 2, 7});
 
     
     
-    
-    //PrintBool(solution(str));
-    //PrintBool(solution(str2));
-    PrintBool(solution(str3));
-
+    solution(numbers);
+    solution(numbers2);
     
     return 0;
 }

@@ -15,6 +15,6 @@
 
 using namespace std;
 
-vector<int> solution(int brown, int yellow);
+//vector<int> solution(int brown, int yellow);
 
 #endif /* BFS_h */

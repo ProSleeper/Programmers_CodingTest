@@ -14,6 +14,7 @@
 
 using namespace std;
 
-bool solution(string s);
+//bool solution(string s);
+//void PrintBool(bool peko);
 
 #endif /* String_Handling_h */

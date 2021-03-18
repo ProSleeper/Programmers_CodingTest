@@ -15,22 +15,22 @@
 //#include "More_Spicy.h"
 //#include "String_Handling.h"
 //#include "ChooseTwoNumber.h"
-#include "New_ID_Recommendation.h"
+//#include "New_ID_Recommendation.h"
+#include "K's Number.h"
 
 
 int main(int argc, const char * arg[]) {
 
-    string new_id = "...!@BaT#*..y.abcdefghijklm";
-    string new_id2 = "z-+.^.";
-    string new_id3 = "=.=";
-    string new_id4 = "123_.def";
-    string new_id5 = "abcdefghijklmn.p";
+    vector<int> array({1, 5, 2, 6, 3, 7, 4});
+    vector<vector<int>> commands({{2, 5, 3}, {4, 4, 1}, {1, 7, 3}});
     
-    cout << solution(new_id);
-    cout << solution(new_id2);
-    cout << solution(new_id3);
-    cout << solution(new_id4);
-    cout << solution(new_id5);
+    //리턴 값 [5, 6, 3]
+    
+    vector<int> answer = solution(array, commands);
+    
+    for (int item : answer) {
+        cout << item << '\n';
+    }
     
     return 0;
 }

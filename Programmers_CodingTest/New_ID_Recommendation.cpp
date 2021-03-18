@@ -20,7 +20,6 @@ string solution(string new_id)
     
     //Step 1
     for (int i = 0; i < new_id.size(); i++) {
-    
         if (isalpha(new_id[i]) and isupper(new_id[i])) {
             new_id[i] =  tolower(new_id[i]);
         }
@@ -98,3 +97,28 @@ string solution(string new_id)
     answer = new_id;
     return answer;
 }
+
+
+/*
+메인함수 부분
+ 
+ #include "New_ID_Recommendation.h"
+
+
+ int main(int argc, const char * arg[]) {
+
+     string new_id = "...!@BaT#*..y.abcdefghijklm";
+     string new_id2 = "z-+.^.";
+     string new_id3 = "=.=";
+     string new_id4 = "123_.def";
+     string new_id5 = "abcdefghijklmn.p";
+     
+     cout << solution(new_id);
+     cout << solution(new_id2);
+     cout << solution(new_id3);
+     cout << solution(new_id4);
+     cout << solution(new_id5);
+     
+     return 0;
+ }
+ */

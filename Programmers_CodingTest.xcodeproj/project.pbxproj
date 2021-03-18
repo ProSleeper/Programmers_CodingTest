@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		510540E32603A31900CBBB70 /* New_ID_Recommendation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 510540E22603A31900CBBB70 /* New_ID_Recommendation.cpp */; };
+		510540E62603B76300CBBB70 /* K's Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 510540E52603B76300CBBB70 /* K's Number.cpp */; };
 		516A6BB625F8D28E00625640 /* SpeedTrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 516A6BB525F8D28E00625640 /* SpeedTrap.cpp */; };
 		517394D825F8631B005D62CF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394D725F8631B005D62CF /* main.cpp */; };
 		517394DF25F863A0005D62CF /* Features_Development.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394DE25F863A0005D62CF /* Features_Development.cpp */; };
@@ -34,6 +35,8 @@
 /* Begin PBXFileReference section */
 		510540E12603A31900CBBB70 /* New_ID_Recommendation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = New_ID_Recommendation.h; sourceTree = "<group>"; };
 		510540E22603A31900CBBB70 /* New_ID_Recommendation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = New_ID_Recommendation.cpp; sourceTree = "<group>"; };
+		510540E42603B76300CBBB70 /* K's Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "K's Number.h"; sourceTree = "<group>"; };
+		510540E52603B76300CBBB70 /* K's Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "K's Number.cpp"; sourceTree = "<group>"; };
 		516A6BB425F8D28E00625640 /* SpeedTrap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedTrap.h; sourceTree = "<group>"; };
 		516A6BB525F8D28E00625640 /* SpeedTrap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpeedTrap.cpp; sourceTree = "<group>"; };
 		517394D425F8631B005D62CF /* Programmers_CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programmers_CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				517394D725F8631B005D62CF /* main.cpp */,
+				510540E42603B76300CBBB70 /* K's Number.h */,
+				510540E52603B76300CBBB70 /* K's Number.cpp */,
 				510540E12603A31900CBBB70 /* New_ID_Recommendation.h */,
 				510540E22603A31900CBBB70 /* New_ID_Recommendation.cpp */,
 				516A6BB425F8D28E00625640 /* SpeedTrap.h */,
@@ -174,6 +179,7 @@
 				517394E625F8B318005D62CF /* BFS.cpp in Sources */,
 				510540E32603A31900CBBB70 /* New_ID_Recommendation.cpp in Sources */,
 				51ED760E25FF592100BD4E66 /* String_Handling.cpp in Sources */,
+				510540E62603B76300CBBB70 /* K's Number.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,18 +14,23 @@
 //#include "Integer_Triangle.h"
 //#include "More_Spicy.h"
 //#include "String_Handling.h"
-#include "ChooseTwoNumber.h"
+//#include "ChooseTwoNumber.h"
+#include "New_ID_Recommendation.h"
 
 
 int main(int argc, const char * arg[]) {
 
-    vector<int> numbers({2, 1, 3, 4, 1});
-    vector<int> numbers2({5, 0, 2, 7});
-
+    string new_id = "...!@BaT#*..y.abcdefghijklm";
+    string new_id2 = "z-+.^.";
+    string new_id3 = "=.=";
+    string new_id4 = "123_.def";
+    string new_id5 = "abcdefghijklmn.p";
     
-    
-    solution(numbers);
-    solution(numbers2);
+    cout << solution(new_id);
+    cout << solution(new_id2);
+    cout << solution(new_id3);
+    cout << solution(new_id4);
+    cout << solution(new_id5);
     
     return 0;
 }

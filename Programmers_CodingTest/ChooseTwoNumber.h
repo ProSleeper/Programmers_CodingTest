@@ -6,15 +6,15 @@
 //  Copyright © 2021 kyw. All rights reserved.
 //
 
-#ifndef ChooseTwoNumber_h
-#define ChooseTwoNumber_h
-
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-
-vector<int> solution(vector<int> numbers);
-
-#endif /* ChooseTwoNumber_h */
+//#ifndef ChooseTwoNumber_h
+//#define ChooseTwoNumber_h
+//
+//#include <iostream>
+//#include <vector>
+//#include <algorithm>
+//
+//using namespace std;
+//
+//vector<int> solution(vector<int> numbers);
+//
+//#endif /* ChooseTwoNumber_h */

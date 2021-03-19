@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		510540E32603A31900CBBB70 /* New_ID_Recommendation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 510540E22603A31900CBBB70 /* New_ID_Recommendation.cpp */; };
 		510540E62603B76300CBBB70 /* K's Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 510540E52603B76300CBBB70 /* K's Number.cpp */; };
+		5108A1ED260496F1001C1B24 /* Phoneketmon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5108A1EC260496F1001C1B24 /* Phoneketmon.cpp */; };
+		5108A1F026049733001C1B24 /* Gem_Shopping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5108A1EF26049733001C1B24 /* Gem_Shopping.cpp */; };
 		516A6BB625F8D28E00625640 /* SpeedTrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 516A6BB525F8D28E00625640 /* SpeedTrap.cpp */; };
 		517394D825F8631B005D62CF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394D725F8631B005D62CF /* main.cpp */; };
 		517394DF25F863A0005D62CF /* Features_Development.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394DE25F863A0005D62CF /* Features_Development.cpp */; };
@@ -37,6 +39,10 @@
 		510540E22603A31900CBBB70 /* New_ID_Recommendation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = New_ID_Recommendation.cpp; sourceTree = "<group>"; };
 		510540E42603B76300CBBB70 /* K's Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "K's Number.h"; sourceTree = "<group>"; };
 		510540E52603B76300CBBB70 /* K's Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "K's Number.cpp"; sourceTree = "<group>"; };
+		5108A1EB260496F1001C1B24 /* Phoneketmon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phoneketmon.h; sourceTree = "<group>"; };
+		5108A1EC260496F1001C1B24 /* Phoneketmon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Phoneketmon.cpp; sourceTree = "<group>"; };
+		5108A1EE26049733001C1B24 /* Gem_Shopping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gem_Shopping.h; sourceTree = "<group>"; };
+		5108A1EF26049733001C1B24 /* Gem_Shopping.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gem_Shopping.cpp; sourceTree = "<group>"; };
 		516A6BB425F8D28E00625640 /* SpeedTrap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedTrap.h; sourceTree = "<group>"; };
 		516A6BB525F8D28E00625640 /* SpeedTrap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpeedTrap.cpp; sourceTree = "<group>"; };
 		517394D425F8631B005D62CF /* Programmers_CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programmers_CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,7 +93,11 @@
 		517394D625F8631B005D62CF /* Programmers_CodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				5108A1EC260496F1001C1B24 /* Phoneketmon.cpp */,
+				5108A1EB260496F1001C1B24 /* Phoneketmon.h */,
 				517394D725F8631B005D62CF /* main.cpp */,
+				5108A1EE26049733001C1B24 /* Gem_Shopping.h */,
+				5108A1EF26049733001C1B24 /* Gem_Shopping.cpp */,
 				510540E42603B76300CBBB70 /* K's Number.h */,
 				510540E52603B76300CBBB70 /* K's Number.cpp */,
 				510540E12603A31900CBBB70 /* New_ID_Recommendation.h */,
@@ -169,7 +179,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5108A1ED260496F1001C1B24 /* Phoneketmon.cpp in Sources */,
 				5193A30325FA08BE001F5355 /* Integer_Triangle.cpp in Sources */,
+				5108A1F026049733001C1B24 /* Gem_Shopping.cpp in Sources */,
 				51B21AB326008C15003E71F3 /* ChooseTwoNumber.cpp in Sources */,
 				517394DF25F863A0005D62CF /* Features_Development.cpp in Sources */,
 				516A6BB625F8D28E00625640 /* SpeedTrap.cpp in Sources */,

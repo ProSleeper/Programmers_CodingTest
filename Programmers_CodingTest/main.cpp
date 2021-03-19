@@ -6,7 +6,7 @@
 //  Copyright © 2021 kyw. All rights reserved.
 //
 
-//#include <iostream>
+#include <iostream>
 //#include "Features_Development.h"
 //#include "H_Index.h"
 //#include "BFS.h"
@@ -16,21 +16,22 @@
 //#include "String_Handling.h"
 //#include "ChooseTwoNumber.h"
 //#include "New_ID_Recommendation.h"
-#include "K's Number.h"
+//#include "K's Number.h"
+#include "Phoneketmon.h"
 
 
 int main(int argc, const char * arg[]) {
 
-    vector<int> array({1, 5, 2, 6, 3, 7, 4});
-    vector<vector<int>> commands({{2, 5, 3}, {4, 4, 1}, {1, 7, 3}});
-    
-    //리턴 값 [5, 6, 3]
-    
-    vector<int> answer = solution(array, commands);
-    
-    for (int item : answer) {
-        cout << item << '\n';
-    }
+    vector<int> vArray1({ 3,1,2,3 });
+    vector<int> vArray2({ 3,3,3,2,2,4 });
+    vector<int> vArray3({ 3,3,3,2,2,2 });
+
+
+    cout << solution(vArray1);
+    cout << solution(vArray2);
+    cout << solution(vArray3);
+
+
     
     return 0;
 }

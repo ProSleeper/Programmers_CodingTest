@@ -51,6 +51,9 @@
     <ClCompile Include="Programmers_CodingTest\Phoneketmon.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers_CodingTest\Gem_Shopping.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Programmers_CodingTest\BFS.h">
@@ -84,6 +87,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Programmers_CodingTest\Phoneketmon.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Programmers_CodingTest\Gem_Shopping.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

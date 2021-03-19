@@ -142,6 +142,7 @@
     <ClCompile Include="Programmers_CodingTest\BFS.cpp" />
     <ClCompile Include="Programmers_CodingTest\ChooseTwoNumber.cpp" />
     <ClCompile Include="Programmers_CodingTest\Features_Development.cpp" />
+    <ClCompile Include="Programmers_CodingTest\Gem_Shopping.cpp" />
     <ClCompile Include="Programmers_CodingTest\H_Index.cpp" />
     <ClCompile Include="Programmers_CodingTest\Integer_Triangle.cpp" />
     <ClCompile Include="Programmers_CodingTest\K%27s Number.cpp" />
@@ -156,6 +157,7 @@
     <ClInclude Include="Programmers_CodingTest\BFS.h" />
     <ClInclude Include="Programmers_CodingTest\ChooseTwoNumber.h" />
     <ClInclude Include="Programmers_CodingTest\Features_Development.h" />
+    <ClInclude Include="Programmers_CodingTest\Gem_Shopping.h" />
     <ClInclude Include="Programmers_CodingTest\H_Index.h" />
     <ClInclude Include="Programmers_CodingTest\Integer_Triangle.h" />
     <ClInclude Include="Programmers_CodingTest\K%27s Number.h" />

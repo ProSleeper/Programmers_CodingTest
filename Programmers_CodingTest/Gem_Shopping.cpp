@@ -225,3 +225,6 @@ vector<int> solution(vector<string> gems) {
     return answer;
 }
 
+
+
+

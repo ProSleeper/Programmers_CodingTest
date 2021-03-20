@@ -152,6 +152,7 @@
     <ClCompile Include="Programmers_CodingTest\Phoneketmon.cpp" />
     <ClCompile Include="Programmers_CodingTest\SpeedTrap.cpp" />
     <ClCompile Include="Programmers_CodingTest\String_Handling.cpp" />
+    <ClCompile Include="Programmers_CodingTest\String_Random_Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Programmers_CodingTest\BFS.h" />
@@ -166,6 +167,7 @@
     <ClInclude Include="Programmers_CodingTest\Phoneketmon.h" />
     <ClInclude Include="Programmers_CodingTest\SpeedTrap.h" />
     <ClInclude Include="Programmers_CodingTest\String_Handling.h" />
+    <ClInclude Include="String_Random_Sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

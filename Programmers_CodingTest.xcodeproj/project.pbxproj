@@ -11,6 +11,7 @@
 		510540E62603B76300CBBB70 /* K's Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 510540E52603B76300CBBB70 /* K's Number.cpp */; };
 		5108A1ED260496F1001C1B24 /* Phoneketmon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5108A1EC260496F1001C1B24 /* Phoneketmon.cpp */; };
 		5108A1F026049733001C1B24 /* Gem_Shopping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5108A1EF26049733001C1B24 /* Gem_Shopping.cpp */; };
+		512C3C2E2608B65300EFDC4B /* SportWear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 512C3C2D2608B65300EFDC4B /* SportWear.cpp */; };
 		516A6BB625F8D28E00625640 /* SpeedTrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 516A6BB525F8D28E00625640 /* SpeedTrap.cpp */; };
 		517394D825F8631B005D62CF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394D725F8631B005D62CF /* main.cpp */; };
 		517394DF25F863A0005D62CF /* Features_Development.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 517394DE25F863A0005D62CF /* Features_Development.cpp */; };
@@ -43,6 +44,8 @@
 		5108A1EC260496F1001C1B24 /* Phoneketmon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Phoneketmon.cpp; sourceTree = "<group>"; };
 		5108A1EE26049733001C1B24 /* Gem_Shopping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gem_Shopping.h; sourceTree = "<group>"; };
 		5108A1EF26049733001C1B24 /* Gem_Shopping.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gem_Shopping.cpp; sourceTree = "<group>"; };
+		512C3C2C2608B65300EFDC4B /* SportWear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SportWear.h; sourceTree = "<group>"; };
+		512C3C2D2608B65300EFDC4B /* SportWear.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SportWear.cpp; sourceTree = "<group>"; };
 		516A6BB425F8D28E00625640 /* SpeedTrap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedTrap.h; sourceTree = "<group>"; };
 		516A6BB525F8D28E00625640 /* SpeedTrap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpeedTrap.cpp; sourceTree = "<group>"; };
 		517394D425F8631B005D62CF /* Programmers_CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programmers_CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +100,8 @@
 				5108A1EB260496F1001C1B24 /* Phoneketmon.h */,
 				517394D725F8631B005D62CF /* main.cpp */,
 				5108A1EE26049733001C1B24 /* Gem_Shopping.h */,
+				512C3C2C2608B65300EFDC4B /* SportWear.h */,
+				512C3C2D2608B65300EFDC4B /* SportWear.cpp */,
 				5108A1EF26049733001C1B24 /* Gem_Shopping.cpp */,
 				510540E42603B76300CBBB70 /* K's Number.h */,
 				510540E52603B76300CBBB70 /* K's Number.cpp */,
@@ -192,6 +197,7 @@
 				510540E32603A31900CBBB70 /* New_ID_Recommendation.cpp in Sources */,
 				51ED760E25FF592100BD4E66 /* String_Handling.cpp in Sources */,
 				510540E62603B76300CBBB70 /* K's Number.cpp in Sources */,
+				512C3C2E2608B65300EFDC4B /* SportWear.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

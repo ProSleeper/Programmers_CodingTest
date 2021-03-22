@@ -18,15 +18,16 @@
 //#include "New_ID_Recommendation.h"
 //#include "K's Number.h"
 //#include "Phoneketmon.h"
-#include "Gem_Shopping.h"
+//#include "Gem_Shopping.h"
 //#include "String_Random_Sort.h"
-
+#include "SportWear.h"
+#include "typeinfo"
 
 
 template <typename T>
-void PrintVector(T pVector)
+void PrintValue(T param)
 {
-    for(auto item : pVector){
+    for(auto item : param){
         cout << item << endl;
     }
 }
@@ -35,30 +36,6 @@ void PrintVector(T pVector)
 
 
 int main(int argc, const char* arg[]) {
-
-    vector<string> gems1({ "DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA" });
-    vector<string> gems2({ "AA", "AB", "AC", "AA", "AC" });
-    vector<string> gems3({ "XYZ", "XYZ", "XYZ" });
-    vector<string> gems4({ "ZZZ", "YYY", "NNNN", "YYY", "BBB" });
-    vector<string> gems5({ "DIA", "EM", "EM", "RUB", "DIA" });
-
-
-    //solution(gems1);
-
-    PrintVector(solution(gems1));
-    PrintVector(solution(gems2));
-    PrintVector(solution(gems3));
-    PrintVector(solution(gems4));
-    PrintVector(solution(gems5));
-
-
-
-    //    {3, 7}
-    //    {1, 3}
-    //    {1, 1}
-    //    {1, 5}
-    //    {3, 5}
-
 
 
     return 0;

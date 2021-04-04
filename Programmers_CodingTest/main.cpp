@@ -20,15 +20,15 @@
 //#include "Phoneketmon.h"
 //#include "Gem_Shopping.h"
 //#include "String_Random_Sort.h"
-#include "SportWear.h"
-#include "typeinfo"
-
+//#include "SportsWear.h"
+#include <string>
+#include <vector>
 
 template <typename T>
 void PrintValue(T param)
 {
     for(auto item : param){
-        cout << item << endl;
+        std::cout << item << std::endl;
     }
 }
 
@@ -37,22 +37,11 @@ void PrintValue(T param)
 
 int main(int argc, const char* arg[]) {
 
-    
-    vector<int> lost1({2, 4});
-    vector<int> reserve1({2, 3, 5});
+    std::string aa = "수박수";
+    aa.pop_back();
+    aa.pop_back();
+    aa.pop_back();
 
-    
-    vector<int> lost2({2, 4});
-    vector<int> reserve2({3});
-
-    
-    vector<int> lost3({3});
-    vector<int> reserve3({1});
-    
-    
-    cout << solution(5, lost1, reserve1);
-    cout << solution(5, lost2, reserve2);
-    cout << solution(3, lost3, reserve3);
     
     
     return 0;

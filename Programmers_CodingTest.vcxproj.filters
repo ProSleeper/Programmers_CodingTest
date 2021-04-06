@@ -60,6 +60,12 @@
     <ClCompile Include="Programmers_CodingTest\SportsWear.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers_CodingTest\Prime_Number.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers_CodingTest\Secret_Map.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Programmers_CodingTest\BFS.h">
@@ -106,6 +112,12 @@
     </ClInclude>
     <ClInclude Include="Programmers_CodingTest\String_Random_Sort.h">
       <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Programmers_CodingTest\Prime_Number.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Programmers_CodingTest\Secret_Map.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -150,6 +150,8 @@
     <ClCompile Include="Programmers_CodingTest\More_Spicy.cpp" />
     <ClCompile Include="Programmers_CodingTest\New_ID_Recommendation.cpp" />
     <ClCompile Include="Programmers_CodingTest\Phoneketmon.cpp" />
+    <ClCompile Include="Programmers_CodingTest\Prime_Number.cpp" />
+    <ClCompile Include="Programmers_CodingTest\Secret_Map.cpp" />
     <ClCompile Include="Programmers_CodingTest\SpeedTrap.cpp" />
     <ClCompile Include="Programmers_CodingTest\SportsWear.cpp" />
     <ClCompile Include="Programmers_CodingTest\String_Handling.cpp" />
@@ -166,6 +168,8 @@
     <ClInclude Include="Programmers_CodingTest\More_Spicy.h" />
     <ClInclude Include="Programmers_CodingTest\New_ID_Recommendation.h" />
     <ClInclude Include="Programmers_CodingTest\Phoneketmon.h" />
+    <ClInclude Include="Programmers_CodingTest\Prime_Number.h" />
+    <ClInclude Include="Programmers_CodingTest\Secret_Map.h" />
     <ClInclude Include="Programmers_CodingTest\SpeedTrap.h" />
     <ClInclude Include="Programmers_CodingTest\SportsWear.h" />
     <ClInclude Include="Programmers_CodingTest\String_Handling.h" />

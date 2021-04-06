@@ -21,8 +21,9 @@
 //#include "Gem_Shopping.h"
 //#include "String_Random_Sort.h"
 //#include "SportsWear.h"
-#include <string>
-#include <vector>
+
+#include "Prime_Number.h"
+
 
 template <typename T>
 void PrintValue(T param)
@@ -37,10 +38,8 @@ void PrintValue(T param)
 
 int main(int argc, const char* arg[]) {
 
-    std::string aa = "수박수";
-    aa.pop_back();
-    aa.pop_back();
-    aa.pop_back();
+
+
 
     
     
